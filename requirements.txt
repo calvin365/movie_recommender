@@ -2,5 +2,7 @@ Flask==2.3.3
 pandas
 requests
 Cython==0.29.36
-scikit-surprise==1.1.3
 python-dotenv
+scikit-learn
+scikit-surprise
+numpy
