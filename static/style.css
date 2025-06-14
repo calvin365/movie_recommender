@@ -1,0 +1,4 @@
+/* Optional styling */
+body { font-family: Arial; margin: 30px; }
+input, select { margin-top: 10px; padding: 5px; }
+img { border-radius: 4px; margin: 10px 0; }

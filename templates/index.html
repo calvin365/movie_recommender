@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head><title>Welcome</title></head>
+<body>
+<h2>Welcome {{ session.username }}</h2>
+<p><a href="{{ url_for('recommend', user_id=session.user_id) }}">Get My Recommendations</a></p>
+<p><a href="{{ url_for('logout') }}">Logout</a></p>
+</body>
+</html>
